@@ -1,0 +1,129 @@
+/*General styling*/
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family:Metamorphic;
+}
+
+.container{
+	width:1100px;
+	margin:auto;
+}
+
+/*header style*/
+.header_bg{
+	width:100%;
+	height:140px;
+}
+
+.header{
+	width:100%;
+	height:140px;
+	margin:auto;
+}
+
+.header1{
+	width:100%;
+	height:80px;
+}
+
+.header2{
+	width:100%;
+	height:60px;
+	background:grey;
+}
+
+.logo{
+	width:50%;
+	height:80px;
+	float:left;
+}
+
+.logo h1{
+	margin-top:3%;
+}
+
+.search{
+	width:50%;
+	height:80px;
+	float:right;
+}
+
+.search_box{
+	width:41%;
+	padding:2%;
+	border:1px solid grey;
+	margin-left:50%;
+	margin-top:5%;
+}
+
+.awesome{
+	display:block;
+	color:#fff;
+	background:grey;
+	padding:2%;
+}
+
+.header2 ul li{
+	display:inline-block;
+	font-size:16px;
+	float:left;
+	padding:1%;
+	color:#fff;
+	text-transform:uppercase;
+	margin-top:1%;
+	margin-right:4.5%;
+	margin-left:4%;
+}
+
+
+
+/*Slider Style*/
+
+.slider{
+	width:100%;
+	background-image:url(../images/education.jpg);
+	background-size:100%;
+	height:500px;
+}
+
+/*courses*/
+.courses_bg{
+	width:100%;
+	height:270px;
+	margin-top:50px;
+}
+
+.courses{
+	width:100%;
+	height:270px;
+	margin:auto;
+}
+
+.courses h1{
+	text-align:center;
+}
+
+.course_col{
+	width:24%;
+	height:270px;
+	border:1px solid black;
+	background-color:#f5f5f5;
+	text-align:center;
+	float:left;
+}
+
+.course_col h2, p, i{
+	margin-top:20px;
+}
+
+.course_icon_style{
+	width:75px;
+	height:70px;
+	padding:20px;
+	text-align:center;
+	background-color:red;
+	border-radius:50%;
+}
+
